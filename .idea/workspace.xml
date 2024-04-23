@@ -42,9 +42,16 @@
     "onboarding.tips.debug.path": "/home/luci/workspace/projetostreme/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Produto">
+  <component name="RunManager" selected="Application.Leitura">
     <configuration name="ContaBancaria" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.br.luci.contaBancaria.ContaBancaria" />
+      <module name="projetostreme" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Leitura" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leitura" />
       <module name="projetostreme" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -59,6 +66,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Leitura" />
         <item itemvalue="Application.Produto" />
         <item itemvalue="Application.ContaBancaria" />
       </list>
