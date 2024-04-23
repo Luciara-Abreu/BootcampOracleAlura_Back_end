@@ -4,7 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98cf23dc-abdb-4278-bc23-89b8759d8c9a" name="Changes" comment="" />
+    <list default="true" id="98cf23dc-abdb-4278-bc23-89b8759d8c9a" name="Changes" comment="fix">
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/luci/exemplos/CalculadoraSalaRetangular.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/luci/exemplos/Calculavel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/luci/exemplos/CalculoGeometrico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/luci/exemplos/ConversaoFinanceira.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/luci/exemplos/ConversorMoeda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/luci/exemplos/ConversorTemperatura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/luci/exemplos/ConversorTemperaturaPadrao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/luci/exemplos/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/luci/exemplos/Servico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/luci/exemplos/Tabuada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/luci/exemplos/TabuadaMultiplicacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/luci/exemplos/TesteCalculadoraSalaRetangular.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/luci/exemplos/TesteConversorMoeda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/luci/exemplos/TesteConversorTemperatura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/luci/exemplos/TesteTabuadaMultiplicacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/luci/exemplos/Vendavel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projetostreme.iml" beforeDir="false" afterPath="$PROJECT_DIR$/projetostreme.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JogoAdivinhacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JogoAdivinhacao.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,13 +35,33 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Luci Abreu &lt;36546342+luciara-abreu@users.noreply.github.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Luciara-Abreu"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Luciara-Abreu/BootcampOracleAlura_Back_end.git",
+    "accountId": "f57789c8-bfc7-4335-be70-8295a9c9543c"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -36,6 +78,7 @@
     "Application.Leitura.executor": "Run",
     "Application.Produto.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/luci/workspace/BootcampOracleAlura_Back_end",
@@ -81,6 +124,36 @@
       <option name="presentableId" value="Default" />
       <updated>1713562730849</updated>
     </task>
+    <task id="LOCAL-00001" summary="Primeiro Commit">
+      <option name="closed" value="true" />
+      <created>1713909130183</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713909130189</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Primeiro Commit">
+      <option name="closed" value="true" />
+      <created>1713909140529</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713909140529</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix">
+      <option name="closed" value="true" />
+      <created>1713909350651</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713909350651</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Primeiro Commit" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
 </project>
