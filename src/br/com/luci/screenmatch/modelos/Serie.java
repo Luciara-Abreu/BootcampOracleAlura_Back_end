@@ -1,4 +1,4 @@
-package br.com.luci.screenmatch;
+package br.com.luci.screenmatch.modelos;
 
 public class Serie extends Titulo {
     private int temporadas;
@@ -38,6 +38,8 @@ public class Serie extends Titulo {
         this.minutosPorEpisodio = minutosPorEpisodio;
     }
 
-    public void setDataDeLancamento(int i) {
+    @Override
+    public int getDuracaoEmMinutos() {
+        return temporadas * episodiosPorTemporada * minutosPorEpisodio;
     }
 }

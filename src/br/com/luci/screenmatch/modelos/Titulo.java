@@ -1,4 +1,4 @@
-package br.com.luci.screenmatch;
+package br.com.luci.screenmatch.modelos;
 
 public class Titulo {
     private String nome;

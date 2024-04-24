@@ -5,6 +5,9 @@ public class Produto implements Vendavel {
     private String nome;
     private double precoUnitario;
 
+    public Produto(double preco) {
+    }
+
     // Construtor e outros métodos
 
     @Override

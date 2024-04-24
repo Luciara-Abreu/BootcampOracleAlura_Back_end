@@ -4,28 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98cf23dc-abdb-4278-bc23-89b8759d8c9a" name="Changes" comment="fix">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/luci/exemplos/CalculadoraSalaRetangular.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/luci/exemplos/Calculavel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/luci/exemplos/CalculoGeometrico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/luci/exemplos/ConversaoFinanceira.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/luci/exemplos/ConversorMoeda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/luci/exemplos/ConversorTemperatura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/luci/exemplos/ConversorTemperaturaPadrao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/luci/exemplos/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/luci/exemplos/Servico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/luci/exemplos/Tabuada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/luci/exemplos/TabuadaMultiplicacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/luci/exemplos/TesteCalculadoraSalaRetangular.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/luci/exemplos/TesteConversorMoeda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/luci/exemplos/TesteConversorTemperatura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/luci/exemplos/TesteTabuadaMultiplicacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/luci/exemplos/Vendavel.java" afterDir="false" />
+    <list default="true" id="98cf23dc-abdb-4278-bc23-89b8759d8c9a" name="Changes" comment="feat: add exemples interfaces">
+      <change afterPath="$PROJECT_DIR$/src/br/com/luci/screenmatch/calculos/CalculadoraDeTempo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/luci/screenmatch/calculos/Classificavel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/luci/screenmatch/calculos/FiltroRecomendacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/luci/screenmatch/modelos/Episodio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/luci/screenmatch/modelos/Filme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/luci/screenmatch/modelos/Serie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/luci/screenmatch/modelos/Titulo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projetostreme.iml" beforeDir="false" afterPath="$PROJECT_DIR$/projetostreme.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JogoAdivinhacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JogoAdivinhacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/luci/exemplos/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/luci/exemplos/Livro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/luci/exemplos/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/luci/exemplos/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/luci/exemplos/ProdutoFisico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/luci/exemplos/ProdutoFisico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/luci/screenmatch/Filme.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/luci/screenmatch/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/luci/screenmatch/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/luci/screenmatch/Serie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/luci/screenmatch/Titulo.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,12 +142,21 @@
       <option name="project" value="LOCAL" />
       <updated>1713909350651</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: add exemples interfaces">
+      <option name="closed" value="true" />
+      <created>1713914147312</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713914147312</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Primeiro Commit" />
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="feat: add exemples interfaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add exemples interfaces" />
   </component>
 </project>

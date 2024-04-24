@@ -7,6 +7,7 @@ public class ProdutoFisico extends Produto implements Calculavel {
 
     public double calcularPrecoFinal() {
         // Implementação com taxas adicionais para produtos físicos
+        double preco = 0;
         return preco * 1.05;
     }
 }
