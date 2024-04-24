@@ -6,6 +6,8 @@ import br.com.luci.screenmatch.modelos.Episodio;
 import br.com.luci.screenmatch.modelos.Filme;
 import br.com.luci.screenmatch.modelos.Serie;
 
+import java.util.ArrayList;
+
 public class Principal {
     public static void main(String[] args) {
         Filme meuFilme = new Filme();
@@ -33,14 +35,14 @@ public class Principal {
         lost.setMinutosPorEpisodio(50);
         System.out.println("Duração para maratonar Lost: " + lost.getDuracaoEmMinutos());
 
-        Filme outroFilme = new Filme();
-        outroFilme.setNome("Avatar");
-        outroFilme.setAnoDeLancamento(2023);
-        outroFilme.setDuracaoEmMinutos(200);
+        Filme avatar = new Filme();
+        avatar.setNome("Avatar");
+        avatar.setAnoDeLancamento(2023);
+        avatar.setDuracaoEmMinutos(200);
 
         CalculadoraDeTempo calculadora = new CalculadoraDeTempo();
         calculadora.inclui(meuFilme);
-        calculadora.inclui(outroFilme);
+        calculadora.inclui(avatar);
         calculadora.inclui(lost);
         System.out.println(calculadora.getTempoTotal());
 
@@ -52,5 +54,18 @@ public class Principal {
         episodio.setSerie(lost);
         episodio.setTotalVisualizacoes(300);
         filtro.filtra(episodio);
+
+        var novoFilme = new Filme();
+        novoFilme.setNome("A casa do espanto");
+        novoFilme.setDuracaoEmMinutos(200);
+        novoFilme.setAnoDeLancamento(1990);
+
+
+        ArrayList<Filme> listaDeFilmes = new ArrayList<>();
+        listaDeFilmes.add(novoFilme);
+        listaDeFilmes.add(avatar);
+
+
+        System.out.println("toString do filme => " + listaDeFilmes);
     }
 }

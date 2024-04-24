@@ -4,22 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98cf23dc-abdb-4278-bc23-89b8759d8c9a" name="Changes" comment="feat: add exemples interfaces">
-      <change afterPath="$PROJECT_DIR$/src/br/com/luci/screenmatch/calculos/CalculadoraDeTempo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/luci/screenmatch/calculos/Classificavel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/luci/screenmatch/calculos/FiltroRecomendacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/luci/screenmatch/modelos/Episodio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/luci/screenmatch/modelos/Filme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/luci/screenmatch/modelos/Serie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/luci/screenmatch/modelos/Titulo.java" afterDir="false" />
+    <list default="true" id="98cf23dc-abdb-4278-bc23-89b8759d8c9a" name="Changes" comment="updates: atualizações">
+      <change afterPath="$PROJECT_DIR$/src/br/com/luci/carrinhoDeCompras/Carrinho.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/luci/carrinhoDeCompras/Principal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/luci/exemplos/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/luci/exemplos/Livro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/luci/exemplos/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/luci/exemplos/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/luci/exemplos/ProdutoFisico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/luci/exemplos/ProdutoFisico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/luci/screenmatch/Filme.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/luci/screenmatch/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/luci/screenmatch/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/luci/screenmatch/Serie.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/luci/screenmatch/Titulo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/luci/screenmatch/modelos/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/luci/screenmatch/modelos/Filme.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +60,7 @@
     "Application.Contador.executor": "Run",
     "Application.JogoAdivinhacao.executor": "Run",
     "Application.Leitura.executor": "Run",
+    "Application.Principal.executor": "Run",
     "Application.Produto.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -79,7 +70,7 @@
     "onboarding.tips.debug.path": "/home/luci/workspace/projetostreme/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Leitura">
+  <component name="RunManager" selected="Application.Principal">
     <configuration name="ContaBancaria" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.br.luci.contaBancaria.ContaBancaria" />
       <module name="projetostreme" />
@@ -94,6 +85,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.luci.screenmatch.Principal" />
+      <module name="projetostreme" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.luci.screenmatch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Produto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.br.luci.ecommerce.Produto" />
       <module name="projetostreme" />
@@ -103,6 +107,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Principal" />
         <item itemvalue="Application.Leitura" />
         <item itemvalue="Application.Produto" />
         <item itemvalue="Application.ContaBancaria" />
@@ -150,13 +155,22 @@
       <option name="project" value="LOCAL" />
       <updated>1713914147312</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="updates: atualizações">
+      <option name="closed" value="true" />
+      <created>1713972393713</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713972393713</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Primeiro Commit" />
     <MESSAGE value="fix" />
     <MESSAGE value="feat: add exemples interfaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add exemples interfaces" />
+    <MESSAGE value="updates: atualizações" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates: atualizações" />
   </component>
 </project>
