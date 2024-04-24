@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98cf23dc-abdb-4278-bc23-89b8759d8c9a" name="Changes" comment="feat: add contrutor">
-      <change afterPath="$PROJECT_DIR$/src/br/com/luci/animais/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/luci/animais/Cachorro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/luci/animais/Principal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/luci/produto/Principal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/luci/produto/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/luci/produto/ProdutoPerecível.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/luci/screenmatch/primcipalComListas/PrincipalComListas.java" afterDir="false" />
+    <list default="true" id="98cf23dc-abdb-4278-bc23-89b8759d8c9a" name="Changes" comment="feat: usando algumas bibliotecas">
+      <change afterPath="$PROJECT_DIR$/src/ExemploHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ListaComCollectionsSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/luci/screenmatch/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/luci/screenmatch/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/luci/screenmatch/modelos/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/luci/screenmatch/modelos/Serie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/luci/screenmatch/modelos/Titulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/luci/screenmatch/modelos/Titulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/luci/screenmatch/primcipalComListas/PrincipalComListas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/luci/screenmatch/primcipalComListas/PrincipalComListas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +57,10 @@
   "keyToString": {
     "Application.ContaBancaria.executor": "Run",
     "Application.Contador.executor": "Run",
+    "Application.ExemploHashMap.executor": "Run",
     "Application.JogoAdivinhacao.executor": "Run",
     "Application.Leitura.executor": "Run",
+    "Application.ListaComCollectionsSort.executor": "Run",
     "Application.Principal.executor": "Run",
     "Application.PrincipalComListas.executor": "Run",
     "Application.Produto.executor": "Run",
@@ -79,23 +74,17 @@
     "onboarding.tips.debug.path": "/home/luci/workspace/projetostreme/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.PrincipalComListas">
-    <configuration name="Leitura" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leitura" />
+  <component name="RunManager" selected="Application.ListaComCollectionsSort">
+    <configuration name="ExemploHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExemploHashMap" />
       <module name="projetostreme" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.luci.screenmatch.Principal" />
+    <configuration name="ListaComCollectionsSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ListaComCollectionsSort" />
       <module name="projetostreme" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.luci.screenmatch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -141,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ListaComCollectionsSort" />
+        <item itemvalue="Application.ExemploHashMap" />
         <item itemvalue="Application.PrincipalComListas" />
         <item itemvalue="Application.br.com.luci.animais.Principal" />
         <item itemvalue="Application.br.com.luci.produto.Principal" />
-        <item itemvalue="Application.Principal" />
-        <item itemvalue="Application.Leitura" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +203,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713979297055</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat: usando algumas bibliotecas">
+      <option name="closed" value="true" />
+      <created>1713996424889</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1713996424889</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -224,6 +221,7 @@
     <MESSAGE value="updates: atualizações" />
     <MESSAGE value="feat: add ArrayList and toString" />
     <MESSAGE value="feat: add contrutor" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add contrutor" />
+    <MESSAGE value="feat: usando algumas bibliotecas" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: usando algumas bibliotecas" />
   </component>
 </project>

@@ -4,8 +4,7 @@ import br.com.luci.screenmatch.modelos.Filme;
 import br.com.luci.screenmatch.modelos.Serie;
 import br.com.luci.screenmatch.modelos.Titulo;
 
-import java.util.ArrayList;
-import java.util.Collections;
+import java.util.*;
 
 public class PrincipalComListas {
     public static void main(String[] args) {
@@ -31,19 +30,26 @@ public class PrincipalComListas {
             }
         }
 
-        ArrayList<String> buscaPorArtista = new ArrayList<>();
+        List<String> buscaPorArtista = new LinkedList<>();
         buscaPorArtista.add("Adam Sandler");
         buscaPorArtista.add("Paulo");
         buscaPorArtista.add("Jacqueline");
         buscaPorArtista.add("Luci Abreu");
         System.out.println(buscaPorArtista);
+        System.out.println("--------------------------------------------------------------------------");
 
         Collections.sort(buscaPorArtista);
         System.out.println("Depois da ordenação");
         System.out.println(buscaPorArtista);
+        System.out.println("--------------------------------------------------------------------------");
 
         System.out.println("Lista de titulos ordenados");
         Collections.sort(lista);
+        System.out.println(lista);
+        System.out.println("--------------------------------------------------------------------------");
+
+        System.out.println("Listas ordenadas por datas");
+        lista.sort(Comparator.comparing(Titulo::getAnoDeLancamento));
         System.out.println(lista);
 
 
