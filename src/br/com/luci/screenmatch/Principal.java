@@ -15,14 +15,9 @@ public class Principal {
         System.out.println("Duração do filme: " + meuFilme.getDuracaoEmMinutos());
 
         meuFilme.exibeFichaTecnica();
-        meuFilme.avalia(8);
-        meuFilme.avalia(5);
-        meuFilme.avalia(10);
         System.out.println("Total de avaliações: " + meuFilme.getTotalDeAvaliacoes());
         System.out.println(meuFilme.pegaMedia());
-        //meuFilme.somaDasAvaliacoes = 10;
-        //meuFilme.totalDeAvaliacoes = 1;
-        //System.out.println(meuFilme.pegaMedia());
+
 
         Serie lost = new Serie("Lost", 2000);
         lost.exibeFichaTecnica();
