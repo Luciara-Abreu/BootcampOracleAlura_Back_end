@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98cf23dc-abdb-4278-bc23-89b8759d8c9a" name="Changes" comment="feat: usando algumas bibliotecas">
-      <change afterPath="$PROJECT_DIR$/src/ExemploHashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ListaComCollectionsSort.java" afterDir="false" />
+    <list default="true" id="98cf23dc-abdb-4278-bc23-89b8759d8c9a" name="Changes" comment="feat: usando bibliotecas  Collections.sort">
+      <change afterPath="$PROJECT_DIR$/src/br/com/luci/compras/CartaoDeCredito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/luci/compras/Compra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/luci/compras/Principal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/luci/screenmatch/primcipalComListas/PrincipalComListas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/luci/screenmatch/primcipalComListas/PrincipalComListas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +74,7 @@
     "onboarding.tips.debug.path": "/home/luci/workspace/projetostreme/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ListaComCollectionsSort">
+  <component name="RunManager" selected="Application.Principal">
     <configuration name="ExemploHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ExemploHashMap" />
       <module name="projetostreme" />
@@ -85,6 +85,19 @@
     <configuration name="ListaComCollectionsSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ListaComCollectionsSort" />
       <module name="projetostreme" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.luci.compras.Principal" />
+      <module name="projetostreme" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.luci.compras.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -115,26 +128,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="br.com.luci.produto.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.luci.produto.Principal" />
-      <module name="projetostreme" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.luci.produto.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Principal" />
         <item itemvalue="Application.ListaComCollectionsSort" />
         <item itemvalue="Application.ExemploHashMap" />
         <item itemvalue="Application.PrincipalComListas" />
         <item itemvalue="Application.br.com.luci.animais.Principal" />
-        <item itemvalue="Application.br.com.luci.produto.Principal" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713996424889</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat: usando bibliotecas  Collections.sort">
+      <option name="closed" value="true" />
+      <created>1713998969604</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1713998969604</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -222,6 +230,7 @@
     <MESSAGE value="feat: add ArrayList and toString" />
     <MESSAGE value="feat: add contrutor" />
     <MESSAGE value="feat: usando algumas bibliotecas" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: usando algumas bibliotecas" />
+    <MESSAGE value="feat: usando bibliotecas  Collections.sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: usando bibliotecas  Collections.sort" />
   </component>
 </project>
