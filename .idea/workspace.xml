@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98cf23dc-abdb-4278-bc23-89b8759d8c9a" name="Changes" comment="feat: consumindo API">
-      <change afterPath="$PROJECT_DIR$/src/br/com/luci/consultaCep/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/luci/screenmatch/PrincipalComBusca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/luci/screenmatch/PrincipalAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/luci/consultaCep/ConsultaCep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/luci/consultaCep/Endereco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/luci/consultaCep/GeradorDeArquivo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/luci/consultaCep/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/luci/consultaCep/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,16 +85,9 @@
       <recent name="br.com.luci.screenmatch.exections" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrincipalAPI">
+  <component name="RunManager" selected="Application.br.com.luci.consultaCep.Principal">
     <configuration name="ConsultaLivroGoogleBooks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ConsultaLivroGoogleBooks" />
-      <module name="projetostreme" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListaComCollectionsSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ListaComCollectionsSort" />
       <module name="projetostreme" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,6 +119,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="br.com.luci.consultaCep.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.luci.consultaCep.Principal" />
+      <module name="projetostreme" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.luci.consultaCep.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="br.com.luci.screenmatch.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.luci.screenmatch.Principal" />
       <module name="projetostreme" />
@@ -140,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.br.com.luci.consultaCep.Principal" />
         <item itemvalue="Application.PrincipalAPI" />
         <item itemvalue="Application.br.com.luci.screenmatch.Principal" />
         <item itemvalue="Application.ConsultaLivroGoogleBooks" />
         <item itemvalue="Application.Principal" />
-        <item itemvalue="Application.ListaComCollectionsSort" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +260,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714170264191</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="feat: consumindo API">
+      <option name="closed" value="true" />
+      <created>1714171997163</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1714171997163</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
