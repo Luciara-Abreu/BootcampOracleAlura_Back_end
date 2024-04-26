@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98cf23dc-abdb-4278-bc23-89b8759d8c9a" name="Changes" comment="feat: consumindo API">
-      <change afterPath="$PROJECT_DIR$/filmes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/luci/screenmatch/exections/ErrorDeConversaoAnoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/luci/screenmatch/modelos/TituloOmdb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/luci/consultaCep/Principal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projetostreme.iml" beforeDir="false" afterPath="$PROJECT_DIR$/projetostreme.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/luci/screenmatch/PrincipalAPI/PrincipalAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/luci/screenmatch/PrincipalAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/luci/screenmatch/modelos/Titulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/luci/screenmatch/modelos/Titulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/luci/screenmatch/PrincipalComBusca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/luci/screenmatch/PrincipalAPI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,7 +245,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714068370384</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="feat: consumindo API">
+      <option name="closed" value="true" />
+      <created>1714170264187</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1714170264191</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
